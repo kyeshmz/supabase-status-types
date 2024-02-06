@@ -1,6 +1,6 @@
-# OpenAI Webhook TypeScript Types
+# Supabase Webhook TypeScript Types
 
-This package provides a set of TypeScript types for handling webhooks from [OpenAI's status page](https://status.openai.com/#).
+This package provides a set of TypeScript types for handling webhooks from [Supabase's status page](https://status.supabase.com/api).
 
 ## Overview
 
@@ -13,17 +13,17 @@ This package provides TypeScript types that correspond to the structure of the d
 First, install the package using npm:
 
 ```bash
-npm install openai-webhook-types
+npm install supabase-webhook-types
 ```
 
 Then, you can import the types into your TypeScript files:
 
 ```typescript
 import {
-	OpenAIStatus,
-	OpenAIComponentStatus,
-	OpenAIIncidentStatus,
-} from "openai-webhook-types";
+	SupabaseStatus,
+	SupabaseComponentStatus,
+	SupabaseIncidentStatus,
+} from "supabase-webhook-types";
 ```
 
 You can now use these types to strongly type your webhook event handlers.
