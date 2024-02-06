@@ -4,7 +4,7 @@ This package provides a set of TypeScript types for handling webhooks from [Supa
 
 ## Overview
 
-When building applications that integrate with OpenAI, you may need to handle webhooks sent by OpenAI. These webhooks contain data about various events, such as changes in component status or incident updates.
+When building applications that integrate with Supabase, you may need to handle webhooks sent by Supabase. These webhooks contain data about various events, such as changes in component status or incident updates.
 
 This package provides TypeScript types that correspond to the structure of the data sent in these webhooks. By using these types, you can leverage TypeScript's static type checking to write more reliable and maintainable code.
 
